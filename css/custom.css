@@ -1,0 +1,17 @@
+.faded {
+  opacity:0.2;
+}
+
+.background-image{
+  background-size:cover;
+  background-position:50% 50%;
+}
+
+
+.main-image{
+    border:none !important;
+    background:none !important;
+    max-height:50% !important;
+    max-width:50% !important;
+    box-shadow: none !important;
+}
