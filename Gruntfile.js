@@ -2,6 +2,7 @@
 module.exports = function(grunt) {
 	var port = grunt.option('port') || 8000;
 	var root = grunt.option('root') || '.';
+	var hostname = grunt.option('hostname') || 'localhost';
 
 	if (!Array.isArray(root)) root = [root];
 
